@@ -27,9 +27,8 @@ Once the local changes are commited and pushed you can merge the master to your 
     - `git merge origin/main`
 2. Push the changes to the remote.
     - `git push`
-```
 
 
-
-
-
+# Undoing the Commit 
+1. Assuming the code is added annd already commited to the repo. The following will undo the commits without removing the local changes.
+    - `git reset HEAD~1`
