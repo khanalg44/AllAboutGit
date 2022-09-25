@@ -30,5 +30,6 @@ Once the local changes are commited and pushed you can merge the master to your 
 
 
 # Undoing the Commit 
-1. Assuming the code is added annd already commited to the repo. The following will undo the commits without removing the local changes.
+1. Assuming the code is added annd already commited to the repo. The following will undo the commits without removing the local changes. (Stack Overflow link)[https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit]
     - `git reset HEAD~1`
+
